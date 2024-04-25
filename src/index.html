@@ -1,0 +1,105 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <title>GET Youtube Subscribers</title>
+    <style>
+      body {
+        background-color: #150527;
+        display: flex;
+        
+      }
+      .container {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 30px 0px 50px 0px;
+        font-family: cursive;
+        background-color:  #65aaf8;
+        border-radius: 12px;
+        color: #ffffff;
+        width: 80vw;
+      }
+      h1 {
+        text-align: center;
+        font-size: 250%;
+        color: #ffffff;
+
+        margin-bottom: 48px;
+      }
+      b {
+        color: #f71515;
+      }
+      ol {
+        padding: 1% 0 0 10%;
+      }
+
+      h3 {
+        text-align: center;
+        color: #ffffff;
+        font-size: larger;
+      }
+      em {
+        color: #31706d;
+        background-color: #ffffff;
+      }
+      em: hover{
+         color: #f44e4e;
+      }
+      hr {
+        width: 85%;
+        color: #11f3eb;
+      }
+      p{
+        font-size: large;
+      }
+      #logo{
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+
+      .navbar-brand{
+    height: 100px;
+}
+
+
+    </style>
+  </head>
+  <body>
+   
+    <div class="container">
+      <div>
+        <h1>GET <b>YOUTUBE</b> SUBSCRIBERS</h1>
+      </div>
+      <hr />
+      <div>
+        <h3>THE APIs PROVIDED BY THIS APPLICATION ARE FOLLOWING:</h3>
+
+        <ol>
+          <li>
+            <p>
+              <strong>GET </strong><a href="subscribers"><b><em>/subscribers </em></b></a>: Response with
+              an array of subscribers (an Object).
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>GET </strong><a href="subscribers/names"><b><em>/subscribers/names </em></b></a>: Response
+              with an array of subscribers (an Object with two fields name &
+              subscribed channel).
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>GET </strong><a href="subscribers/:id"><b><em>/subscribers/:id </em></b></a>: Response
+              with a subscriber (an Object) with a given ID.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
