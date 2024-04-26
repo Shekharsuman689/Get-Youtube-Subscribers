@@ -57,9 +57,7 @@ To run this project locally, make sure you have the following installed:
 - [MongoDB](https://www.mongodb.com/)
 
 ## Installation and Run
-1. Clone the repository from GitHub:
-    ```
-https://github.com/Shekharsuman689/Get-Youtube-Subscribers.git     
+1. Clone the repository from GitHub:https://github.com/Shekharsuman689/Get-Youtube-Subscribers.git     
     ```
 2. Redirect to the project folder:
     ```
