@@ -2,8 +2,9 @@ const chai = require("chai");
 const chaiHttp = require("chai-http");
 const app = require("../src/app"); // Import your Express app
 const Subscriber = require("../src/models/subscribers"); // Import your model
-const mongoose=require('mongoose')
+const mongoose = require('mongoose');
 const expect = chai.expect;
+
 // Configure chai
 chai.use(chaiHttp);
 chai.should();
@@ -12,10 +13,7 @@ describe("API Routes", () => {
   before(async () => {
     // Connect to a test database or perform any setup you need
     // This will depend on your testing environment and strategy
-    await mongoose.connect('mongodb+srv://shekharsuman689:shekhar4050@cluster0.x2parrb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+    await mongoose.connect('mongodb+srv://shekharsuman689:shekhar4050@cluster0.x2parrb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
   });
   
   after(async () => {
